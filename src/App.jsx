@@ -14,8 +14,6 @@ const App = () => {
 
     return (
         <>
-            work
-
             <button onClick={onClose}>Закрыть приложение</button>
         </>
     )
