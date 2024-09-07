@@ -4,7 +4,8 @@ import React, { useEffect } from 'react';
 import { FaApple } from "react-icons/fa";
 
 //Components
-import ProductCard from './components/ProductCard';
+import ProductCard from './components/UI/ProductCard/ProductCard';
+import AllProducts from './components/AllProducts';
 
 
 const tg = window.Telegram.WebApp;
@@ -34,7 +35,8 @@ const App = () => {
                     У нас большое разнообразие товаров, начиная от Airpods и iPhone, заканчивая Macbook.
                 </div>
                 <div className="shop__products">
-                    <ProductCard/>
+                    {/* <ProductCard/> */}
+                    <AllProducts/>
                 </div>
             </section>
         </div>
