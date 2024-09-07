@@ -8,13 +8,9 @@ const App = () => {
         tg.ready();
     }, [])
 
-    const onClose = () => {
-        tg.close();
-    }
-
     return (
         <>
-            <button onClick={onClose}>Закрыть приложение</button>
+            <h1>AppleStoreTelegram</h1>
         </>
     )
 }
