@@ -12,9 +12,14 @@ const App = () => {
     }, [])
 
     return (
-        <>
-            <FaApple /><h1>AppleStoreTelegram</h1>
-        </>
+        <div className="App">
+            <section className='shop'>
+                <div className="shop__title">
+                    <FaApple size={40}/>
+                    Apple Store
+                </div>
+            </section>
+        </div>
     )
 }
 
