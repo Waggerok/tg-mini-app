@@ -2,7 +2,7 @@ body {
   background-color: #FFF;
 }
 
-.shop__title {
+.welcome__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,8 +15,27 @@ body {
   font-size: 30px;
   gap: 10px;
 }
-.shop__description {
+.welcome__description {
   margin-top: 10px;
   font-size: 22px;
   color: grey;
+}
+
+.shop__title {
+  text-align: center;
+  font-size: 28px;
+}
+.shop__descirption {
+  margin-top: 10px;
+  font-size: 18px;
+  color: black;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  background-color: #e4e4e4;
+  -webkit-box-shadow: 2px 2px 5px #c0c0c0;
+          box-shadow: 2px 2px 5px #c0c0c0;
 }/*# sourceMappingURL=App.min.css.map */
