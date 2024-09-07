@@ -1,3 +1,7 @@
+body {
+  background-color: #FFF;
+}
+
 .shop__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,4 +14,9 @@
           justify-content: center;
   font-size: 30px;
   gap: 10px;
+}
+.shop__description {
+  margin-top: 10px;
+  font-size: 22px;
+  color: grey;
 }/*# sourceMappingURL=App.min.css.map */
