@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import { FaApple } from "react-icons/fa";
 
 //Components
-import ProductCard from './components/UI/ProductCard/ProductCard';
+
 import AllProducts from './components/AllProducts';
 
 
@@ -35,7 +35,6 @@ const App = () => {
                     У нас большое разнообразие товаров, начиная от Airpods и iPhone, заканчивая Macbook.
                 </div>
                 <div className="shop__products">
-                    {/* <ProductCard/> */}
                     <AllProducts/>
                 </div>
             </section>

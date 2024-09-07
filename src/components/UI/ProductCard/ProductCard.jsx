@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './ProductCard.module.css';
 
-import airpods from '../../../Products/Airpods';
 // import iphone from '../../../Products/iPhone';
 // import iwatch from '../../../Products/iWatch';
 
