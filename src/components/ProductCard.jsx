@@ -1,6 +1,6 @@
 import React from 'react';
 
-import airpods from '../Products/Airpods';
+// import airpods from '../Products/Airpods';
 
 const ProductCard  = () => {
     return (
