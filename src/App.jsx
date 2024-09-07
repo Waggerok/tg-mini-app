@@ -18,6 +18,9 @@ const App = () => {
                     <FaApple size={40}/>
                     Apple Store
                 </div>
+                <div className="shop__description">
+                    Добро пожаловать в наш магазин техники Apple Store, мы переехали в Telegram Mini Apps, теперь вы можете заказывать вашу любимую продукцию прямо из Telegram.
+                </div>
             </section>
         </div>
     )
